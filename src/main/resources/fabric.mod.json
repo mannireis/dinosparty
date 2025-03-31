@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hackcraft",
+	"version": "${version}",
+	"name": "Hackcraft",
+	"description": "This is a mod with lots of stuff like orpheos",
+	"authors": [
+		"Manni The Cat!"
+	],
+	"contact": {
+		"homepage": "https://mannireis.com/",
+		"sources": "https://github.com/mannireis/dinosparty"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hackcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mannireis.hackcraft.Hackcraft"
+		],
+		"fabric-datagen": [
+			"com.mannireis.hackcraft.HackcraftDataGenerator"
+		],
+		"client": [
+			"com.mannireis.hackcraft.HackcraftClient"
+		]
+	},
+	"mixins": [
+		"hackcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
