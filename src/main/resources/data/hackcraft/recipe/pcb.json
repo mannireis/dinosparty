@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "misc",
+  "key": {
+    "#": {
+      "item": "hackcraft:copper_spool"
+    },
+    "G": {
+      "item": "minecraft:green_stained_glass_pane"
+    }
+  },
+  "pattern": [
+    "#G",
+    "#G",
+    "#G"
+  ],
+  "result": {
+    "id": "hackcraft:pcb",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hackcraft:pcb"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "hackcraft:copper_spool"
+  }
+}
