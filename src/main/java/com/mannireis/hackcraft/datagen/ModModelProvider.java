@@ -26,5 +26,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COPPER_SPOOL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAINBOW_FLESH, Models.GENERATED);
         itemModelGenerator.register(ModItems.JUICE_CAFE_CASSETE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIRE_MACE, Models.GENERATED);
     }
 }

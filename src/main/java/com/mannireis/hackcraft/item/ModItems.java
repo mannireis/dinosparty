@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item COPPER_SPOOL = registerItem("copper_spool", new Item(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item FIRE_MACE = registerItem("fire_mace", new ChiselItem(new Item.Settings().maxDamage(1024)));
     public static final Item RAINBOW_FLESH = registerItem("rainbow_flesh", new Item(new Item.Settings().food(ModFoodComponents.RAINBOW_FLESH)));
 
 
@@ -41,6 +42,9 @@ public class ModItems {
         });
         ItemGroupEvents .modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(JUICE_CAFE_CASSETE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(FIRE_MACE);
         });
     }
 }

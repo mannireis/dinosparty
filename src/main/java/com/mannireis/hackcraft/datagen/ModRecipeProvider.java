@@ -45,5 +45,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('G', Items.GREEN_STAINED_GLASS_PANE)
                 .criterion(hasItem(Items.GREEN_STAINED_GLASS_PANE), conditionsFromItem(Items.GREEN_STAINED_GLASS_PANE))
                 .offerTo(recipeExporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_SPOOL, 2)
+                .input(Items.HEAVY_CORE)
+                .input(Items.BLAZE_ROD)
+                .criterion(hasItem(Items.HEAVY_CORE), conditionsFromItem(Items.BLAZE_ROD))
+                .offerTo(recipeExporter);
     }
 }
