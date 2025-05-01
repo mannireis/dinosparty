@@ -2,6 +2,7 @@ package com.mannireis.hackcraft.block;
 
 
 import com.mannireis.hackcraft.Hackcraft;
+import com.mannireis.hackcraft.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -17,7 +18,8 @@ public class ModBlocks {
     public static final Block HACKCLUB_LOGO_BLOCK = registerBlock("hackclub_logo_block",
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
-
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -34,6 +36,8 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.HACKCLUB_LOGO_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.MAGIC_BLOCK);
+
         });
     }
 }

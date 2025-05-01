@@ -1,6 +1,22 @@
 {
   "item.hackcraft.pcb": "PCB",
   "item.hackcraft.copper_spool": "Copper Spool",
+  "item.hackcraft.chisel": "Chisel",
+  "item.hackcraft.rainbow_flesh": "Rainbow Flesh",
 
-  "block.hackcraft.hackclub_logo_block":  "Block Of Hackclub Logo"
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+  "item.hackcraft.juice_cafe_cassete": "Juice Cafe Cassate",
+  "item.hackcraft.juice_cafe_cassete.desc": "Juice Cafe - Hackclub",
+
+  "block.hackcraft.hackclub_logo_block":  "Block Of Hackclub Logo",
+  "block.hackcraft.magic_block": "Magical Block",
+
+  "effect.hackcraft.slimey": "Slimey",
+
+  "painting.hackcraft.juicy_package.title": "Juicy Package",
+  "painting.hackcraft.juicy_package.author": "Hackclub, Juice"
+
 }

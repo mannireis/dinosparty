@@ -1,0 +1,10 @@
+{
+  "juice_cafe": {
+    "sounds": [
+      {
+        "name": "hackcraft:juice_cafe",
+        "stream": true
+    }
+    ]
+  }
+}
